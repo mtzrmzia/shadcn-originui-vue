@@ -15,5 +15,8 @@ defineOptions({
     <ComponentWrapper name="Radio Group">
       <LazyOURadioDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Switch">
+      <LazyOUSwitchDemo/>
+    </ComponentWrapper>
   </div>
 </template>

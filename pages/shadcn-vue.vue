@@ -15,5 +15,8 @@ defineOptions({
     <ComponentWrapper name="Radio Group">
       <LazySCRadioDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Switch">
+      <LazySCSwitchDemo/>
+    </ComponentWrapper>
   </div>
 </template>
