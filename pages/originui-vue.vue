@@ -24,5 +24,8 @@ defineOptions({
     <ComponentWrapper name="Avatar">
       <LazyOUAvatarDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Badge">
+      <LazyOUBadgeDemo/>
+    </ComponentWrapper>
   </div>
 </template>
