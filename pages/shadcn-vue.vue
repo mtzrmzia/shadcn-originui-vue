@@ -18,5 +18,8 @@ defineOptions({
     <ComponentWrapper name="Switch">
       <LazySCSwitchDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Button">
+      <LazySCButtonDemo/>
+    </ComponentWrapper>
   </div>
 </template>

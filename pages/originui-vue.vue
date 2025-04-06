@@ -18,5 +18,8 @@ defineOptions({
     <ComponentWrapper name="Switch">
       <LazyOUSwitchDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Button">
+      <LazyOUButtonDemo/>
+    </ComponentWrapper>
   </div>
 </template>
