@@ -12,5 +12,8 @@ defineOptions({
     <ComponentWrapper name="Checkbox">
       <LazySCCheckboxDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Radio Group">
+      <LazySCRadioDemo/>
+    </ComponentWrapper>
   </div>
 </template>

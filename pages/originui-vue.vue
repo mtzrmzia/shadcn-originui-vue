@@ -12,5 +12,8 @@ defineOptions({
     <ComponentWrapper name="Checkbox">
       <LazyOUCheckboxDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Radio Group">
+      <LazyOURadioDemo/>
+    </ComponentWrapper>
   </div>
 </template>
