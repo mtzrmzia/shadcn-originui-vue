@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         {
             path: '~/components',
             pathPrefix: false,
-            ignore: ['~/components/ui']
+            ignore: ['~/components/ui', '~/components/originui']
         },
         {
             path: '~/components/ui',
