@@ -21,5 +21,8 @@ defineOptions({
     <ComponentWrapper name="Button">
       <LazySCButtonDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Avatar">
+      <LazySCAvatarDemo/>
+    </ComponentWrapper>
   </div>
 </template>

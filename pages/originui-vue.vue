@@ -21,5 +21,8 @@ defineOptions({
     <ComponentWrapper name="Button">
       <LazyOUButtonDemo/>
     </ComponentWrapper>
+    <ComponentWrapper name="Avatar">
+      <LazyOUAvatarDemo/>
+    </ComponentWrapper>
   </div>
 </template>
