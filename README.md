@@ -23,9 +23,20 @@ If you already have `shadcn-vue` installed, **you don't need to install anything
 
 - Tailwind CSS is already configured.
 - `reka-ui` is already installed.
-- Both libraries use the same CSS variable structure and animation keyframes.
 
-👉 [originui-vue — CSS Variables](https://github.com/Jettonn/originui-vue?tab=readme-ov-file#css-variables)
+---
+
+## 🎨 CSS Variables & Theme
+
+Both `shadcn-vue` and `originui-vue` use the same CSS variable structure and animation keyframes, making them fully compatible out of the box.
+
+👉 See full theme configuration in the CSS entry file:  
+[assets/css/main.css](https://github.com/mtzrmzia/shadcn-originui-vue/blob/main/assets/css/main.css)
+
+Includes:
+- Shared CSS variables under `:root` and `.dark`
+- Accordion and collapsible animations
+- Color tokens and layout spacing
 
 ---
 
@@ -109,7 +120,6 @@ The project includes demo pages for each library:
 
   The layout uses the `Sidebar` component from `shadcn-vue` as its main navigation element.
 ---
-
 ## 🚀 Getting Started
 
 ```bash
