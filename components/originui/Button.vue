@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, toRefs } from 'vue'
 import type { VariantProps } from 'class-variance-authority'
-import  {buttonVariants,cn} from "~/lib/utils";
+import  {buttonVariants,cn} from "@/lib/utils";
 
 
 const props = defineProps({

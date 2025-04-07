@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { avatarVariant, cn } from '~/lib/utils'
+import { avatarVariant, cn } from '@/lib/utils'
 import type { VariantProps } from 'class-variance-authority'
 import { AvatarRoot } from 'reka-ui'
 import type { HTMLAttributes } from 'vue'

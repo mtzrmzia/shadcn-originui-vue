@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from '@tailwindcss/vite'
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
+import tailwindcss from '@tailwindcss/vite';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
@@ -27,9 +31,12 @@ export default defineNuxtConfig({
             ignore: ['**/index.ts']
         }
     ],
+    alias: {
+        '@/lib/utils': resolve(__dirname, 'lib/utils.ts'),
+    },
     modules: [
-        'shadcn-nuxt',
-        '@nuxtjs/color-mode'
+        '@nuxtjs/color-mode',
+        'shadcn-nuxt'
     ],
     shadcn: {
         prefix: 'SC',

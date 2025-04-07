@@ -26,6 +26,7 @@
   "packageManager": "yarn@4.7.0",
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.5.2",
+    "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
   }
 }
